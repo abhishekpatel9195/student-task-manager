@@ -1,0 +1,121 @@
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f3f6fb;
+    color: #243047;
+}
+
+.container {
+    width: 90%;
+    max-width: 850px;
+    margin: 40px auto;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+header h1 {
+    color: #2457c5;
+    margin-bottom: 10px;
+}
+
+header p {
+    color: #667085;
+}
+
+.task-form,
+.task-list {
+    background-color: white;
+    padding: 25px;
+    margin-bottom: 25px;
+    border-radius: 12px;
+    box-shadow: 0 3px 12px rgba(0, 0, 0, 0.06);
+}
+
+h2 {
+    margin-top: 0;
+}
+
+label {
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 7px;
+    font-weight: bold;
+}
+
+input,
+select {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #d0d5dd;
+    border-radius: 6px;
+    font-size: 15px;
+    background-color: white;
+}
+
+button {
+    margin-top: 12px;
+    padding: 11px 14px;
+    background-color: #2457c5;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #1945a3;
+}
+
+#cancelButton {
+    background-color: #667085;
+}
+
+#cancelButton:hover {
+    background-color: #475467;
+}
+
+#emptyMessage {
+    color: #667085;
+}
+
+.task-card {
+    padding: 16px;
+    margin-top: 14px;
+    border: 1px solid #d0d5dd;
+    border-radius: 8px;
+    overflow-wrap: anywhere;
+}
+
+.task-card h3 {
+    margin-top: 0;
+}
+
+.task-card button {
+    margin-right: 8px;
+    margin-bottom: 5px;
+}
+
+.task-card .delete-button {
+    background-color: #dc3545;
+}
+
+.task-card .delete-button:hover {
+    background-color: #b02a37;
+}
+
+.task-card.completed {
+    background-color: #f0faf3;
+}
+
+[hidden] {
+    display: none !important;
+}
